@@ -1,0 +1,70 @@
+<html>
+  <header>
+<h1 id="tittle"><b> Beginner Survey Form Programmers </b></h1> 
+    </header>
+  
+  <body>
+<p id="description"> Thank you for taking the time to help us improve the platform. </p>
+
+<form id="survey-form">
+  
+ 
+  <label for="name" id="name-label"><b> *Name: </b></label>
+ <br><br/>
+  <input type="name" id="text" name="name" placeholder="Enter your name" class="input-forms" required> </input>
+<br><br/>
+<label for="email" id="email-label"><b> *Email: </b></label>
+<br><br/>
+<input type="email" id="mail" name="email" placeholder="Enter your email" class="input-forms" required> </input>
+<br><br/>
+<label for="age" id="number-label"><b> Age: (optional) </b></label>
+<br><br/>
+<input type="number" id="age" name="age"  min="10" max="100"placeholder="Age" class="input-forms" optional </input>
+<br><br/>
+<label for="dropdown" id="dropdown"><b> Why did you decide to learn how to program?</b></label>
+<br><br/>
+<select name="Select_an_option" id="dropdown"class="input-forms">"Select an option"
+<option value="" disabled selected>Select an option</option>
+  <option value="It_is_important"> Because it is important </option>
+<option value="That_will_be_fundamental_for_jobs_in_the_future"> That will be fundamental for the future </option>
+<option value="It_is_fun"> It is fun </option>
+<option value="I_am_boring_during_COVID"> I am boring during COVID </option>
+<option value="I_need_it_for_my_job"> I need it for my job </option>
+<option value="Other"> Other </option>
+</select>
+<br><br/>
+<label for="text" id="text"><b> Would you recommend to learn programming to a friend?</b>
+
+<br><br/>
+  <input id="text" type="radio" name="Definitely_Maybe_Not sure" value="Definitely">Definitely<br>
+   <input id="text"type="radio" name="Definitely_Maybe_Not sure" value="Maybe">Maybe<br>
+    <input id="text" type="radio" name="Definitely_Maybe_Not sure" value="Never">Never<br>
+</label>
+<br><br/>
+<label for="dropdown2" id="rd"><b>What is your favorite feature of learning new things</b></label>
+<br><br/>
+<select name="Select_one_of_these" id="dropdown2"class="input-forms"> Select one of these
+  <option value="" disable selected> Select one of these</option>
+  <option value="Challenges">Challenges</option>
+  <option value="Personal_Projects">Personal Projects </option>
+  <option value="Helping_people">Helping people</option>
+  <option value="Other">Other</option>
+  </select>
+<br><br/>
+<label for="text"><b>What would you like to learn and improve? (Check all that apply) </b> <br></br>
+<input id="checkbox" type="checkbox" name="text" value="1"> Front-end project<br>
+  <input id="checkbox" type="checkbox" name="Back-end_Projects" value="2">Back-end Projects <br>
+  <input id="checkbox" type="checkbox" name="Data_Visualization" value="3">Data Visualization <br>
+  <input id="checkbox" type="checkbox" name="New_Challenges" value="4">New Challenges<br>
+<input id="checkbox" type="checkbox" name="Additional_Courses" value="5">Additional Courses<br>
+</label>
+<br></br>
+<label id="textarea"><b>Additional Comments: </b></label>
+<br></br>
+<textarea id="textarea" rows="5" cols="35" name="instructions" class="input-forms"  placeholder="Enter your comments here..."></textarea>
+<br></br>
+<button type="submit" id="submit" class="submit-button">Submit</button>
+
+</form>
+</body>
+</html>
