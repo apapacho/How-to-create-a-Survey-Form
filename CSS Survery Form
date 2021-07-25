@@ -1,0 +1,45 @@
+body{
+    font-family:'Raleway', Helvetica, sans-serif;
+  line-height: 1;
+  background-image: url(https://wp-mktg.prod.getty1.net/istockcontentredesign/wp-content/uploads/sites/5/2021/03/2021_iStock_LatestBGTrends_Hero.jpg.jpeg) ;
+   width: 500px;
+  margin: auto;
+  text-align: left;
+}
+form {
+  background-color: #FFC0CB;
+  padding: 2.5rem 2.5rem;
+  border-radius: 2rem;
+  width: 500px;
+  margin: auto;
+}
+h1 {
+  font-family: Copperplate, fantasy;
+  font-style: bold;
+  color: white;
+  font-size: 50px;
+  text-align:center;
+}
+p {
+  font-style: italic;
+  color: white;
+  font-size: 16px;
+  text-align:center;
+}
+.submit-button {
+  width: 100%;
+  padding: 0.75rem;
+  background: #48D1CC;
+  color: White;
+  font-style: bold;
+  cursor: pointer;
+}
+
+.input-forms{
+  displays: block;
+  width: 90%;
+  heights: 2rem;
+  padding: 0.25rem 0.75rem;
+  background-color: #fff;
+border-radius: 0.30rem;
+}
